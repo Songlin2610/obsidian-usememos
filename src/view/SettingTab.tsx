@@ -9,23 +9,11 @@ import { SettingTab } from '../component/SettingTab';
 import { Locale } from 'antd/es/locale';
 
 export const DEFAULT_SETTINGS: PluginSettings = {
-  periodicNotesPath: 'PeriodicNotes',
-  projectsPath: '1. Projects',
-  areasPath: '2. Areas',
-  resourcesPath: '3. Resources',
-  archivesPath: '4. Archives',
-  projectListHeader: 'Project List',
-  areaListHeader: 'First Things Dimension',
-  habitHeader: 'Habit',
+  dailyNotePath: 'DailyNotes',
   dailyRecordHeader: 'Daily Record',
   dailyRecordAPI: '',
   dailyRecordToken: '',
   dailyRecordWarning: true,
-  useDailyRecord: false,
-  usePeriodicNotes: true,
-  usePARANotes: true,
-  usePARAAdvanced: false,
-  paraIndexFilename: 'readme',
   weekStart: -1,
 };
 

@@ -1,24 +1,13 @@
 import type { Locale } from 'antd/es/locale';
 import type { App } from 'obsidian';
 
+// 插件配置类型
 export interface PluginSettings {
-  periodicNotesPath: string;
-  projectsPath: string;
-  areasPath: string;
-  resourcesPath: string;
-  archivesPath: string;
-  projectListHeader: string;
-  areaListHeader: string;
-  habitHeader: string;
+  dailyNotePath: string;
   dailyRecordHeader: string;
   dailyRecordAPI: string;
   dailyRecordToken: string;
   dailyRecordWarning: boolean;
-  useDailyRecord: boolean;
-  usePeriodicNotes: boolean;
-  usePARANotes: boolean;
-  usePARAAdvanced: boolean;
-  paraIndexFilename: 'readme' | 'foldername';
   weekStart: number;
 }
 

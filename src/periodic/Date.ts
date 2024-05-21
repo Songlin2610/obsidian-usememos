@@ -192,7 +192,7 @@ export class Date {
       const weekFile = this.file.get(
         weekLink,
         '',
-        this.settings.periodicNotesPath
+        this.settings.dailyNotePath
       );
 
       if (weekFile) {
@@ -205,7 +205,7 @@ export class Date {
       const monthFile = this.file.get(
         monthLink,
         '',
-        this.settings.periodicNotesPath
+        this.settings.dailyNotePath
       );
 
       if (monthFile) {
@@ -218,7 +218,7 @@ export class Date {
       const quarterFile = this.file.get(
         quarterLink,
         '',
-        this.settings.periodicNotesPath
+        this.settings.dailyNotePath
       );
 
       if (quarterFile) {
